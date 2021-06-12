@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MyLove.ILoveYou">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Pink">
+            <Frame BackgroundColor="Purple"
+                   Padding="25">
+                <Label Text="я люблю тебя, Солнышко"
+                       TextColor="Yellow"
+                       FontSize="24"
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold"
+                       />
+            </Frame>
+            <Frame CornerRadius="40" 
+               Padding="0, 0, 0, 0" 
+               Margin="0, 50, 0, 0"
+               BackgroundColor="Purple"
+               BorderColor="Black"
+               >
+                <Label Text="Ты самый красивиый и милый человек, которого я только встречал" 
+                       FontSize="Title" 
+                       Padding="0,10,0,10"
+                       HorizontalTextAlignment = "Center"
+                       TextColor="Yellow"
+                       Margin="0, 0, 0, 0"/>
+            </Frame>
+            <Button Text="Услышать ещё комплимент"
+                x:Name="ready"
+                BackgroundColor="Purple"
+                TextColor="Yellow"
+                FontAttributes="Bold"
+                CornerRadius="20"
+                BorderWidth="1"
+                BorderColor="Black"
+                Padding="0, 0, 0, 0"
+                Margin="120,0, 120, 50"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
